@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul{
+    float: right;
+	list-style-type: none;
+}
+
+
+ul li{
+	 display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: green;
+	padding: 6px 21px;
+	border: 2px solid transparent;
+	transition: 0.9s ease;
+}
+ul li a:hover{
+	background-color: #78a4eb;
+	color: blue;
+}	
+
+ul li.active a{
+	background-color: #78a4eb;
+	color: blue;
+}
+
+.logo img{
+	float: left;
+	width: 500px;
+	height: auto;
+	
+}
+
+.main{
+	max-width: 1200px;
+	margin: 80;
+	padding: 6px 21px;
+	
+}
+
+.item{
+	background-color: #e0f7da;
+}
